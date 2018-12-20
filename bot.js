@@ -2243,12 +2243,5 @@ ${thisMessage}\`\`\`
 );
 
     })}});
-
-client.on("ready", () => {
-  function blue() {
-    client.guilds.get('525295963150090240').roles.find("name", "Rainbow").setColor("RANDOM");
-  };
-  setInterval(blue, 3000);
-});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
