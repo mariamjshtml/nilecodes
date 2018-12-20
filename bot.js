@@ -1275,7 +1275,7 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• STAR » Support', '• SRAE » Support Plus');
+  let rank = message.guild.member(message.author).roles.find('name', '• Nile » Support', '• Nile » Support Plus');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
@@ -1538,7 +1538,7 @@ let Room = client.channels.get('525317695441338372');
 
 if(message.content.startsWith(prefix + "رفض")) {
 
-if(message.guild.id !== '525317695441338372') return;
+if(message.guild.id !== '525319819273175063') return;
 
  if (!message.member.hasPermission("MANAGE_ROLES")) return message.reply("**للأسف ليس لديك صلاحية**").then(msg => msg.delete(5000));
 
